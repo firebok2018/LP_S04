@@ -1,0 +1,16 @@
+package fechas;
+
+import java.text.DateFormat;
+import java.util.Date;
+
+public class fechas {
+	
+	
+	Date d = new Date();
+	
+	DateFormat f1= DateFormat.getDateInstance();
+	System.out.println(f1.format(d));
+	
+	
+
+}

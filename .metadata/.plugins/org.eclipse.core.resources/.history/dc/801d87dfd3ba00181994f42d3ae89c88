@@ -1,0 +1,17 @@
+package fechas;
+
+import java.text.DateFormat;
+import java.util.Date;
+
+public class fechas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date d = new Date();
+		
+		DateFormat f1= DateFormat.getDateInstance();
+		System.out.println(f1.format(d));
+
+	}
+
+}
